@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+  background-color:  #d0d4d5;
+  position: relative;
+}
+#logo{
+    height: 35px;
+}
+nav{
+    display: flex;
+    height: 10%;
+    width: 95%;
+    margin: auto;
+    padding: 7px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+nav ul li a:hover{
+    color:white;
+}
+.content{
+    width: 100%;
+    height:90%;
+    display: flex;
+}
+
+#left{
+    width: 40%;
+    height: 100%; 
+    padding: 65px 120px;
+    align-items: center;
+}
+#left h5{
+    font-weight: normal;
+}
+#left h1{
+text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+}
+#left button{
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+   padding: 12px 30px;
+   border-radius: 50px;
+   border-top-left-radius: 0px;
+   text-transform: uppercase;
+}
+#right{
+    align-items:center;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 18px ;
+    position: relative;
+}
+.right1{
+    width: 32.69%;
+    height: 68%;
+      box-shadow: 0 4px 8px 0 rgba(1, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(223, 223, 223);
+    align-items: center;
+     padding: -10px 0; 
+  position: relative;
+}
+.right1 img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.right1 figcaption{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 3px rgb(255, 249, 249);  
+}
+.colour{
+ font-size: 20px;
+ color: rgb(2, 183, 2);
+ text-align: center;
+}
+.colour1{
+    font-size: 16;
+    color: red;
+    text-align: center;
+}
+.placed{
+    align-items: center;
+    padding: 9px 22px;
+    background-color: black;
+    color: white;
+    margin-left: 85px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    text-transform: uppercase;
+}
+
+
